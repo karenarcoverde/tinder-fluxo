@@ -114,6 +114,7 @@ body {
 .esquerdo .menu ul {
 	display: flex;
 	padding: 0 20px;
+	
 }
 
 .esquerdo .menu ul li {
@@ -122,6 +123,7 @@ body {
 	font-weight: 700;
 	font-size: 15px;
 	letter-spacing: 0.5px;
+	color: black;
 }
 
 .escolhido:hover{
@@ -493,7 +495,7 @@ body {
 }
 
 .direito .icones_inferior .arrow{
-	width: 170px;
+	width: 140px;
 	height: 70px;
 	display: flex;
 	justify-content: flex-end;
@@ -501,7 +503,7 @@ body {
 }
 
 .super_like {
-	width: 80px;
+	width: 100px;
 	height: 70px;
 	display: flex;
 	justify-content: flex-end;
@@ -509,7 +511,6 @@ body {
 	font-size: 15px;	
 	color: #4F4F4F;
 	margin-right: 20px;
-	margin-left: 6px;
 }
 
 .super_like span {
