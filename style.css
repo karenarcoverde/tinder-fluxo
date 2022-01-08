@@ -88,6 +88,10 @@ body {
 	margin-right: 15px;
 }
 
+.handbag:hover{
+	transform: scale(1.1);
+}
+
 .esquerdo .header .handshield{
 	width: 40px;
 	height: 40px;
@@ -97,6 +101,10 @@ body {
 	justify-content: center;
 	border-radius: 100%;
 	background-color: rgba(0, 0, 0, 0.13);
+}
+
+.handshield:hover{
+	transform: scale(1.1);
 }
 
 .estilo_texto_fluxo {
@@ -120,12 +128,17 @@ body {
 	letter-spacing: 0.5px;
 }
 
-
-.esquerdo .menu .escolhido {
+.escolhido:hover{
+	transform: scale(1.1);
 	border-bottom: 3px solid #fd5068;
 	padding-bottom: 2px;
 }
 
+.mensagens:hover{
+	transform: scale(1.1);
+	border-bottom: 3px solid #fd5068;
+	padding-bottom: 2px;
+}
 
 .pergunta_resposta{
 	display: flex;
@@ -286,11 +299,11 @@ body {
 	transition: 0.2s transform;
 }
 
-.direito .buttons .x:hover,
-.direito .buttons .star:hover,
-.direito .buttons .heart:hover,
-.direito .buttons .return:hover,
-.direito .buttons .lightning:hover {
+.x:hover,
+.star:hover,
+.heart:hover,
+.return:hover,
+.lightning:hover {
 	transform: scale(1.1);
 }
 
@@ -354,6 +367,10 @@ body {
 	color: #4F4F4F;
 }
 
+.left:hover{
+	transform: scale(1.1);
+}
+
 .direito .icones_inferior .right {
 	width: 80px;
 	height: 70px;
@@ -371,7 +388,10 @@ body {
 	margin-right: 10px;	
 	color: #4F4F4F;
 }
-	
+
+.right:hover{
+	transform: scale(1.1);
+}
 
 
 .direito .icones_inferior .up {
@@ -393,6 +413,10 @@ body {
 	color: #4F4F4F;	
 }
 
+.up:hover{
+	transform: scale(1.1);
+}
+
 .direito .icones_inferior .down {
 	width: 145px;
 	height: 70px;
@@ -410,6 +434,10 @@ body {
 	font-size: 15px;	
 	margin-right: 10px;	
 	color: #4F4F4F;
+}
+
+.down:hover{
+	transform: scale(1.1);
 }
 
 .direito .icones_inferior .arrow{
@@ -435,6 +463,10 @@ body {
 .super_like span {
 	width: 80px;
 	height: 20px;
+}
+
+.arrow:hover{
+	transform: scale(1.1);
 }
 
 
