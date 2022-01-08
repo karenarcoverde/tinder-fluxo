@@ -209,10 +209,11 @@ body {
 	background-color: black;
 }
 
-.direito .card .nome_idade i {
+.nome_idade img {
 	margin: 5px 0;
-	color: rgb(33, 150, 243);
-	font-size: 20px;
+	font-size: 10px;
+	width: 20px;
+	height: 20px;
 }
 
 .direito .card .status {
