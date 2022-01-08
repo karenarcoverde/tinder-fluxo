@@ -11,6 +11,7 @@ body {
 	display: flex;
 
 }
+
 .esquerdo {
 	min-width: 360px;
 	height: 200px;
@@ -160,7 +161,9 @@ body {
 
 .direito .card {
 	position: relative;
-	height: 450px;
+	height: 725px;
+	background-color: black;
+	border-radius: 25px;
 }
 
 .direito .card .user {
@@ -172,55 +175,118 @@ body {
 }
 
 .direito .card .profile {
-
+	background-color: black;
 }
 
-.direito .card .user .name {
+.name {
 	color: #fff;
-	font-size: 32px;
 	font-weight: 700;
 	letter-spacing: 0.5px;
 	text-shadow: 1px 1px 5px #444;
+	font-size: 26px;
+	margin-right: 10px;
+	margin-left: 20px;
 }
 
-.direito .card .user .name span {
-	font-size: 26px;
+.idade {
+	color: #fff;
+	letter-spacing: 0.5px;
+	text-shadow: 1px 1px 5px #444;
+	margin-right: 10px;
+	font-size: 22px;
+	margin-top: 24px;
 }
+
+.direito .card .nome_idade {
+	margin: 5px 0;
+	font-size: 20px;
+	width: 300px;
+	height: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: black;
+}
+
+.infos {
+	background-color: black;
+}
+
+
+.direito .card .nome_idade i {
+	margin: 5px 0;
+	color: rgb(33, 150, 243);
+	font-size: 20px;
+}
+
 
 .direito .card .status {
 	display: flex;
 	align-items: center;
 	padding: 0 0 20px 0;
+	height: 25px;
+	margin-top: 25px;
 }
 
 .direito .card .status i {
 	margin: 5px 0;
-	color: #fff;
+	font-size: 8px;
+	margin-left: 20px;
+	color: rgb(53, 253, 4);
 }
 
-.direito .card .status span {
+.info {
+	margin-top: -20px;
+}
+
+ .info i{
+	margin-left: 320px;
+	color: white;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info i:hover{
+	transform: scale(1.1);
+}
+
+
+
+.online {
 	color: #fff;
 	padding: 0 10px;
 	text-shadow: 1px 1px 5px #444;
+	margin-left: -5px;
+	font-size: 13px;
 }
 
-
-.direito .card .curso span {
+.curso {
+	height: 10px;
 	color: #fff;
 	padding: 0 10px;
 	text-shadow: 1px 1px 5px #444;
+	margin-left: 11px;
+	margin-top: -10px;
 }
 
-.direito .card .periodo span {
+.periodo {
 	color: #fff;
 	padding: 0 10px;
 	text-shadow: 1px 1px 5px #444;
+	margin-left: 11px;
 }
+
 
 .direito .buttons {
-	margin-top: 10px;
+	width: 350px;
+	height: 80px;
 	display: flex;
+	justify-content: center;
 	align-items: center;
+	margin-top: 12%;
+	margin-left: 3.7%;
 }
 
 
@@ -287,7 +353,7 @@ body {
 .direito .buttons .heart,
 .direito .buttons .return,
 .direito .buttons .lightning {
-	background-color: rgb(255, 255, 255);
+	background-color: rgba(0, 0, 0, 0);
 	width: 70px;
 	height: 70px;
 	box-shadow: 0 1px 10px 0 rgba(0, 20, 20, 0.1);
@@ -328,7 +394,7 @@ body {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	margin-top: 20%;
+	margin-top: 7%;
 	margin-left: 50%;	
 }
 
@@ -426,7 +492,7 @@ body {
 }
 
 .direito .icones_inferior .down .fechar_perfil {
-	width: 400px;
+	width: 450px;
 	height: 70px;
 	display: flex;
 	justify-content: flex-end;
