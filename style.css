@@ -207,13 +207,11 @@ body {
 	background-color: black;
 }
 
-
 .direito .card .nome_idade i {
 	margin: 5px 0;
 	color: rgb(33, 150, 243);
 	font-size: 20px;
 }
-
 
 .direito .card .status {
 	display: flex;
