@@ -15,10 +15,9 @@ body {
 /* menu esquerdo com a parte branca, matches, mensagens, pergunta do PAME e resposta etc. */
 .esquerdo {
 	min-width: 360px;
-	height: 200px;
+	height: 952px;
 	background-color: #fff;
-	height: 100%;
-	min-height: 155vh;
+	min-height: 100%;
 	border-right: 1px solid #e1e1e1;
 }
 
