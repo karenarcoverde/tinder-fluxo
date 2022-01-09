@@ -1,24 +1,28 @@
 * {
 	box-sizing: border-box;
 }
+/* parte toda do site com a cor branca */
 body {
 	background-color: #f5f7fa;
 	font-family: 'Roboto', sans-serif;
 	margin: 0;  
 }
+/* parte toda do site */
 .pai {
 	display: flex;
 }
 
+/* menu esquerdo com a parte branca, matches, mensagens etc. */
 .esquerdo {
 	min-width: 360px;
 	height: 200px;
 	background-color: #fff;
 	height: 100%;
-	min-height: 130vh;
+	min-height: 200vh;
 	border-right: 1px solid #e1e1e1;
 }
 
+/* menu direito com a parte cinza claro, com a minha foto e informacoes minhas */
 .direito {
 	width: 100%;
 	display: flex;
@@ -27,6 +31,7 @@ body {
 	flex-direction: column;
 }
 
+/*parte esquerda e a parte com gradiente de cores rosa e laranja */
 .esquerdo .header {
 	background: linear-gradient(262deg, #ff7854, #fd267d);
 	width: 100%;
@@ -37,6 +42,7 @@ body {
 	padding: 0 20px;
 }
 
+/* imagem da logo da fluxo */
 .esquerdo .header .logo_fluxo img {
 	width: 30px;
 	height: 30px;
@@ -44,6 +50,7 @@ body {
 	background-color: rgba(0, 0, 0, 0.13);
 }
 
+/* logo da fluxo */
 .esquerdo .header .logo_fluxo  {
 	display: flex;
 	align-items: center;
@@ -73,7 +80,7 @@ body {
 	justify-content: flex-end;
 }
 
-
+/* icone da bolsa */
 .esquerdo .header .handbag{
 	width: 40px;
 	height: 40px;
@@ -86,10 +93,12 @@ body {
 	margin-right: 15px;
 }
 
+/* estilo de aumentar e diminuir de tamanho o icone da bolsa ao passar o mouse */
 .handbag:hover{
 	transform: scale(1.1);
 }
 
+/* icone do escudo de mão*/
 .esquerdo .header .handshield{
 	width: 40px;
 	height: 40px;
@@ -101,22 +110,26 @@ body {
 	background-color: rgba(0, 0, 0, 0.13);
 }
 
+/* estilo de aumentar e diminuir de tamanho o icone do escudo de mao ao passar o mouse */
 .handshield:hover{
 	transform: scale(1.1);
 }
 
+/* alterando o estilo do texto escrito Fluxo Consultoria */
 .estilo_texto_fluxo {
 	color: #fff;
 	font-size: 13px;
 	margin-left: 4px;
 }
 
+/* estilo do menu com as opcoes matches e mensagens */
 .esquerdo .menu ul {
 	display: flex;
 	padding: 0 20px;
 	
 }
 
+/* estilo de cada opcao (matches e mensagens) */
 .esquerdo .menu ul li {
 	list-style: none;
 	margin: 0 10px;
@@ -126,18 +139,21 @@ body {
 	color: black;
 }
 
+/* estilo de aumentar e diminuir de tamanho o icone matches e uma linha rosa em baixo da palavra ao passar o mouse */
 .escolhido:hover{
 	transform: scale(1.1);
 	border-bottom: 3px solid #fd5068;
 	padding-bottom: 2px;
 }
 
+/* estilo de aumentar e diminuir de tamanho o icone mensagens e uma linha rosa em baixo da palavra ao passar o mouse */
 .mensagens:hover{
 	transform: scale(1.1);
 	border-bottom: 3px solid #fd5068;
 	padding-bottom: 2px;
 }
 
+/* estilizando e centralizando a pergunta "O que está achando do PAME?" e a resposta para respectiva pergunta */
 .pergunta_resposta{
 	display: flex;
 	flex-direction: column;
@@ -148,14 +164,7 @@ body {
 	margin-left: 50px;
 }
 
-.direito {
-	width: 100%;
-	display: flex;
-	padding: 20px 0;
-	align-items: center;
-	flex-direction: column;
-}
-
+/* estilizando a parte que contem foto + informacoes pessoais e icones, por exemplo, preenchendo com fundo preto essa parte toda */
 .direito .card {
 	position: relative;
 	height: 725px;
@@ -163,6 +172,7 @@ body {
 	border-radius: 25px;
 }
 
+/* estilizando a foto que eu coloquei */
 .direito .card .user {
 	width: 380px;
 	height: 450px;
@@ -171,10 +181,12 @@ body {
 	box-shadow: 0 1px 10px 0 rgba(0, 20, 20, 0.5);
 }
 
+/* colocando o fundo preto somente na parte de fundo da foto */
 .direito .card .profile {
 	background-color: black;
 }
 
+/* estilizando o meu nome, mudando a cor da letra para branco, tamanho da fonte etc., colocando em uma boa posicao */
 .name {
 	color: #fff;
 	font-weight: 700;
@@ -185,6 +197,7 @@ body {
 	margin-left: 20px;
 }
 
+/* estilizando a minha idade, mudando a cor da letra para branco, tamanho da fonte etc., colocando em uma boa posicao */
 .idade {
 	color: #fff;
 	letter-spacing: 0.5px;
@@ -194,6 +207,7 @@ body {
 	margin-top: 24px;
 }
 
+/* colocando em uma boa posicao o conjunto nome + idade, mudando o fundo para preto etc. */
 .direito .card .nome_idade {
 	margin: 5px 0;
 	font-size: 20px;
@@ -205,10 +219,12 @@ body {
 	background-color: black;
 }
 
+/* colocando o fundo preto em tudo que contem as minhas informacoes (nome, idade, curso, periodo etc.) + icones */
 .infos {
 	background-color: black;
 }
 
+/* modificando o icone check azul: tamanho */
 .nome_idade img {
 	margin: 5px 0;
 	font-size: 10px;
@@ -216,6 +232,7 @@ body {
 	height: 20px;
 }
 
+/* modificando o tamanho das informacoes bolinha verde indicando online + frase Online recentemente */
 .direito .card .status {
 	display: flex;
 	align-items: center;
@@ -224,6 +241,7 @@ body {
 	margin-top: 25px;
 }
 
+/* modificando o tamanho da bolinha verde indicando que está online */
 .direito .card .status i {
 	margin: 5px 0;
 	font-size: 8px;
@@ -231,10 +249,21 @@ body {
 	color: rgb(53, 253, 4);
 }
 
+/* modificando cor e tamanho da frase Online recentemente */
+.online {
+	color: #fff;
+	padding: 0 10px;
+	text-shadow: 1px 1px 5px #444;
+	margin-left: -5px;
+	font-size: 13px;
+}
+
+/* ajeitando a posicao das informacoes curso + período + icone com simbolo "i" */
 .info {
 	margin-top: -20px;
 }
 
+/* ajeitando o icone com simbolo "i": tamanho, cor etc. */
  .info i{
 	margin-left: 320px;
 	color: white;
@@ -244,18 +273,12 @@ body {
 	align-items: center;
 }
 
+/* estilo de aumentar e diminuir de tamanho o icone com simbolo "i" */
 .info i:hover{
 	transform: scale(1.1);
 }
 
-.online {
-	color: #fff;
-	padding: 0 10px;
-	text-shadow: 1px 1px 5px #444;
-	margin-left: -5px;
-	font-size: 13px;
-}
-
+/* estilizando a cor, tamanho e posicao do texto "Engenharia Eletrônica e de Computação" */
 .curso {
 	height: 10px;
 	color: #fff;
@@ -265,6 +288,7 @@ body {
 	margin-top: -10px;
 }
 
+/* estilizando a cor, tamanho e posicao do texto "6° Período" */
 .periodo {
 	color: #fff;
 	padding: 0 10px;
@@ -272,7 +296,7 @@ body {
 	margin-left: 11px;
 }
 
-
+/* estilizando o tamanho e posicao dos botões em baixo das informacoes de curso e período */
 .direito .buttons {
 	width: 350px;
 	height: 80px;
@@ -283,62 +307,72 @@ body {
 	margin-left: 3.7%;
 }
 
-
+/* ajeitando a imagem return.svg, cor e tamanho */
 .direito .buttons .return img {
 	color: white;
 	font-size: 32px;
 }
 
+/* ajeitando a imagem return.svg, colocando borda, colorindo a borda e formato redondo */
 .direito .buttons .return  {
 	border-style: solid;
 	border-color: white;
 	border-width: 2px;
 }
 
+/* ajeitando a imagem x.svg, cor e tamanho */
 .direito .buttons .x img {
 	color: #fd2e79;
 	font-size: 33px;
 }
+
+/* ajeitando a imagem x.svg, colocando borda, colorindo a borda e formato redondo */
 .direito .buttons .x  {
 	border-style: solid;
 	border-color: #fd2e79;
 	border-width: 2px;
 }
 
+/* ajeitando a imagem star.svg, cor e tamanho */
 .direito .buttons .star img {
 	color: #2bb1ff;
 	font-size: 22px;
 }
 
+/* ajeitando a imagem star.svg, colocando borda, colorindo a borda e formato redondo */
 .direito .buttons .star  {
 	border-style: solid;
 	border-color: #2bb1ff;
 	border-width: 2px;
 }
 
+/* ajeitando a imagem heart.svg, cor e tamanho */
 .direito .buttons .heart img {
 	color: #11e298;
 	font-size: 32px;
 }
 
+/* ajeitando a imagem heart.svg, colocando borda, colorindo a borda e formato redondo */
 .direito .buttons .heart  {
 	border-style: solid;
 	border-color: #11e298;
 	border-width: 2px;
 }
 
-
+/* ajeitando a imagem lightning.svg, cor e tamanho */
 .direito .buttons .lightning img {
 	color: purple;
 	font-size: 32px;
 }
 
+/* ajeitando a imagem lightning.svg, colocando borda, colorindo a borda e formato redondo */
 .direito .buttons .lightning  {
 	border-style: solid;
 	border-color: purple;
 	border-width: 2px;
 }
 
+/* ajeitando a transparencia e posicionamento de cada botao x.svg, star.svg, heart.svg etc. */
 .direito .buttons .x,
 .direito .buttons .star,
 .direito .buttons .heart,
@@ -356,6 +390,7 @@ body {
 	transition: 0.2s transform;
 }
 
+/* botando efeito em cada botao x.svg, star.svg etc. de aumentar de tamanho ao passar o mouse sobre ele e diminuir de tamanho quando tira o mouse*/
 .x:hover,
 .star:hover,
 .heart:hover,
@@ -364,21 +399,25 @@ body {
 	transform: scale(1.1);
 }
 
+/* modificando tamanho dos botoes incluindo a borda, para o return.svg ser menor do que o x.svg por exemplo*/
 .direito .buttons .return {
 	width: 60px;
 	height: 60px;
 }
 
+/* modificando tamanho dos botoes incluindo a borda, para o star.svg ser menor do que o x.svg por exemplo*/
 .direito .buttons .star {
 	width: 60px;
 	height: 60px;
 }
 
+/* modificando tamanho dos botoes incluindo a borda, para o lightning.svg ser menor do que o x.svg por exemplo*/
 .direito .buttons .lightning {
 	width: 60px;
 	height: 60px;
 }
 
+/* posicionando os icones inferiores: ocultar, NÃO, CURTI, ABRIR PERFIL etc. no canto inferior e centralizado abaixo do card com as minhas informacoes */
 .icones_inferior {
 	width: 300px;
 	height: 80px;
@@ -388,6 +427,7 @@ body {
 	margin-top: 7%;
 	margin-left: 56%;	
 }
+
 
 .direito .icones_inferior .ocultar_bottom {
 	border: none;
