@@ -12,17 +12,17 @@ body {
 	display: flex;
 }
 
-/* menu esquerdo com a parte branca, matches, mensagens etc. */
+/* menu esquerdo com a parte branca, matches, mensagens, pergunta do PAME e resposta etc. */
 .esquerdo {
 	min-width: 360px;
 	height: 200px;
 	background-color: #fff;
 	height: 100%;
-	min-height: 200vh;
+	min-height: 155vh;
 	border-right: 1px solid #e1e1e1;
 }
 
-/* menu direito com a parte cinza claro, com a minha foto e informacoes minhas */
+/* menu direito com a parte cinza claro, com a minha foto,  minhas informacoes e icones inferiores */
 .direito {
 	width: 100%;
 	display: flex;
@@ -50,7 +50,7 @@ body {
 	background-color: rgba(0, 0, 0, 0.13);
 }
 
-/* logo da fluxo */
+/* ajeitando a posicao do e tamanho logo da fluxo, colocando um efeito transparente no logo da fluxo + texto "Fluxo Consultoria" */
 .esquerdo .header .logo_fluxo  {
 	display: flex;
 	align-items: center;
@@ -80,7 +80,7 @@ body {
 	justify-content: flex-end;
 }
 
-/* icone da bolsa */
+/* icone da bolsa e colocando um efeito transparente no icone*/
 .esquerdo .header .handbag{
 	width: 40px;
 	height: 40px;
@@ -98,7 +98,7 @@ body {
 	transform: scale(1.1);
 }
 
-/* icone do escudo de mão*/
+/* icone do escudo de mão e colocando um efeito transparente no icone*/
 .esquerdo .header .handshield{
 	width: 40px;
 	height: 40px;
@@ -425,10 +425,10 @@ body {
 	justify-content: flex-end;
 	align-items: center;
 	margin-top: 7%;
-	margin-left: 56%;	
+	margin-left: 60%;	
 }
 
-
+/* ajeitando o icone OCULTAR, colocando um botao nele cinza, mudando a cor da letra OCULTAR para branco, posicionando ele com os outros ícones */
 .direito .icones_inferior .ocultar_bottom {
 	border: none;
 	height: 30px;
@@ -445,6 +445,7 @@ body {
 	color: white;
 }
 
+/* ajeitando a posicao e tamanho do icone left.svg */
 .direito .icones_inferior .left {
 	width: 60px;
 	height: 70px;
@@ -453,7 +454,7 @@ body {
 	align-items: center;	
 	margin-right: 10px;
 }
-
+/* ajeitando a posicao, tamanho e cor do texto "NÃO" */
 .direito .icones_inferior .left .no {
 	width: 100px;
 	height: 70px;
@@ -463,10 +464,12 @@ body {
 	color: #4F4F4F;
 }
 
+/* colocando efeito de aumentar e diminuir de tamanho ao passar o mouse no icone left.svg + texto "NÃO" */
 .left:hover{
 	transform: scale(1.1);
 }
 
+/* ajeitando a posicao e tamanho do icone right.svg */
 .direito .icones_inferior .right {
 	width: 80px;
 	height: 70px;
@@ -475,6 +478,7 @@ body {
 	align-items: center;	
 }
 
+/* ajeitando a posicao, tamanho e cor do texto "CURTI" */
 .direito .icones_inferior .right .curti {
 	width: 190px;
 	height: 70px;
@@ -485,10 +489,12 @@ body {
 	color: #4F4F4F;
 }
 
+/* colocando efeito de aumentar e diminuir de tamanho ao passar o mouse no icone right.svg + texto "CURTI" */
 .right:hover{
 	transform: scale(1.1);
 }
 
+/* ajeitando a posicao e tamanho do icone up.svg */
 .direito .icones_inferior .up {
 	width: 130px;
 	height: 70px;
@@ -497,6 +503,7 @@ body {
 	align-items: center;
 }
 
+/* ajeitando a posicao, tamanho e cor do texto "ABRIR PERFIL" */
 .direito .icones_inferior .up .abrir_perfil {
 	width: 260px;
 	height: 70px;
@@ -508,10 +515,12 @@ body {
 	color: #4F4F4F;	
 }
 
+/* colocando efeito de aumentar e diminuir de tamanho ao passar o mouse no icone up.svg + texto "ABRIR PERFIL" */
 .up:hover{
 	transform: scale(1.1);
 }
 
+/* ajeitando a posicao e tamanho do icone down.svg */
 .direito .icones_inferior .down {
 	width: 145px;
 	height: 70px;
@@ -520,6 +529,7 @@ body {
 	align-items: center;
 }
 
+/* ajeitando a posicao, tamanho e cor do texto "FECHAR PERFIL" */
 .direito .icones_inferior .down .fechar_perfil {
 	width: 450px;
 	height: 70px;
@@ -531,10 +541,12 @@ body {
 	color: #4F4F4F;
 }
 
+/* colocando efeito de aumentar e diminuir de tamanho ao passar o mouse no icone down.svg + texto "FECHAR PERFIL" */
 .down:hover{
 	transform: scale(1.1);
 }
 
+/* ajeitando a posicao e tamanho do icone enteringArrow.svg */
 .direito .icones_inferior .arrow{
 	width: 140px;
 	height: 70px;
@@ -543,6 +555,7 @@ body {
 	align-items: center;
 }
 
+/* ajeitando a posicao, tamanho e cor do texto "SUPER LIKE" */
 .super_like {
 	width: 100px;
 	height: 70px;
@@ -554,15 +567,12 @@ body {
 	margin-right: 20px;
 }
 
-.super_like span {
-	width: 80px;
-	height: 20px;
-}
-
+/* colocando efeito de aumentar e diminuir de tamanho ao passar o mouse no icone enteringArrow.svg + texto "SUPER LIKE" */
 .arrow:hover{
 	transform: scale(1.1);
 }
 
+/* ajeitando posicao do botao que possui um buraco transparente + do texto "PRÓXIMA FOTO" */
 .direito .icones_inferior .buraco_proxima{
 	display: flex;
 	justify-content: flex-end;
@@ -570,6 +580,7 @@ body {
 	margin-right: 5px;
 }
 
+/* ajeitando posicao, cor, borda cinza, estilo da borda do botao que possui um buraco transparente */
 .direito .icones_inferior .buraco_proxima .buraco {
 	border: none;
 	width: 120px;
@@ -589,6 +600,7 @@ body {
 
 }
 
+/* ajeitando a posicao, cor e tamanho do texto "PRÓXIMA FOTO" */
 .direito .icones_inferior .buraco_proxima .proxima_foto {
 	width: 115px;
 	height: 40px;
