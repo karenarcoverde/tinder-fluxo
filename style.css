@@ -15,7 +15,7 @@ body {
 	height: 200px;
 	background-color: #fff;
 	height: 100%;
-	min-height: 100vh;
+	min-height: 130vh;
 	border-right: 1px solid #e1e1e1;
 }
 
@@ -386,7 +386,7 @@ body {
 	justify-content: flex-end;
 	align-items: center;
 	margin-top: 7%;
-	margin-left: 50%;	
+	margin-left: 56%;	
 }
 
 .direito .icones_inferior .ocultar_bottom {
